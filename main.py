@@ -6,8 +6,8 @@ GREEN = "\33[92m"
 RESET = "\33[0m"
 YELLOW = "\33[33m"
 
-os.os.system("cls")
-bot = discord.discord.Client(self_bot=False)
+os.system("cls")
+bot = discord.Client(self_bot=False)
 banner = GREEN + """
 ___      _    _   _____         _ 
 | _ \__ _(_)__| | |_   _|__  ___| |
@@ -33,7 +33,7 @@ async def on_ready():
         guilds.append(guild)
     print("")
     guild = guilds[int(input(f"{BLUE} [SELECT SERVER]: {RESET}"))]
-    os.os.system("cls")
+    os.system("cls")
     time.sleep(1)
     print(f"{RED} [0] {BLUE} Kick All Members ")
     print(f"{RED} [1] {BLUE} Show All Members ")
